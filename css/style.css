@@ -61,35 +61,66 @@ table {
     font-style: normal;
 }
 /* defining "default" styles for small screens (less than 420px wide) */
-html { 	    background-color:#000;
-			font-size:14px; font-size:100%;	}
-body { 	    width: 96vw;
-            background-color:#606;
-						margin: 1rem auto; padding-bottom: 10px;
-						border-top-left-radius:25px;
-            box-shadow: 0 0 10px #000;
-						font: 100%/1.4 Verdana, Geneva, sans-serif; }
+html { 
+    background-color:#000;
+    font-size:14px; 
+    font-size:100%;	
+}
+body { 	    
+    width: 96vw;
+    background-color:#606;
+    margin: 1rem auto;
+    padding-bottom: 10px;
+    border-top-left-radius:25px;
+    box-shadow: 0 0 10px #000;
+    font: 100%/1.4 Verdana, Geneva, sans-serif;
+}
 header, footer {
-            padding:.5em 3% .2em 3%; margin:0;
-            color:#fff; }
-footer {    clear:both;
-            background:#e4dde4; }
-.main_content {   background:#e4dde4;
-            padding-top: 10px;
-            padding-bottom: 10px; }
-h1 { 		font-size:200%; margin:0;
-			font-family:'caviar_dreamsbold', Geneva, sans-serif; }
-h2 { 		font-size:140%; font-weight: bold;
-            margin: .1rem 3% 0  3%;  }
-h3 { 		font-size:110%; font-weight: bold;
-            margin: 0 0 .5rem 0;  }
-p { 		font-size:90%;    }
-.intro p   { margin: 3%;  }
-.grid-row { padding: 3%; }
+    padding:.5em 3% .2em 3%; 
+    margin:0;    
+    color:#fff; 
+}
+footer {
+    clear:both;
+    background:#e4dde4; 
+}
+.main_content {
+    background:#e4dde4;
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+h1 { 
+    font-size:200%; 
+    margin:0;
+    font-family:'caviar_dreamsbold', Geneva, sans-serif; 
+}
+h2 {
+    font-size:140%; 
+    font-weight: bold;
+    margin: .1rem 3% 0  3%;
+}
+h3 {
+    font-size:110%;
+    font-weight: bold;
+    margin: 0 0 .5rem 0;
+}
+p {
+    font-size:90%;
+}
+.intro p { 
+    margin: 3%;
+}
+.grid-row {
+    padding: 3%;
+}
 .secondary, .triptych {
-            background-color:#eee;
-			margin:0% 0% 3% 0%;
-			padding: .75rem;
+    background-color:#eee;
+    margin:0% 0% 3% 0%;
+	padding: .75rem;
+}
+img {
+    /* width: 100%;
+    display: block; */
 }
 
 /* media query 1: define styles that should only kick in if screen is above 421 pixels wide... */
@@ -107,16 +138,24 @@ p { 		font-size:90%;    }
 }
 
 @media screen and (min-width:561px) {
-	body { font-size:105%; }
+	body { 
+        font-size:105%; 
+    }
 }
 
 @media screen and (min-width:761px) {
-	body { font-size:110%; }
+	body {
+        font-size:110%; 
+    }
 }
 
 @media screen and (min-width:961px){
-	body { font-size:120%; width:80vw; }
+    body {
+        font-size:120%; width:80vw;
+    }
 }
 @media screen and (min-width:1024px){
-	body { width: 1024px; }
+    body { 
+        width: 1024px; 
+    }
 }
